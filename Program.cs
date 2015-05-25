@@ -52,7 +52,7 @@ namespace Crossover
                 var substrings = new Dictionary<string, int>();
                 for (var i = 0; i < n; ++i)
                 {
-                    // building subscrings of length between k and l
+                    // building substrings of length between k and l
                     for (var j = k; j <= l && (i + j - 1 < n); j++)
                     {
                         var substr = str.Substring(i, j);
